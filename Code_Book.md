@@ -18,7 +18,7 @@ The dataset consist in the measurements of a Samsung Galaxy's sensors in various
   * **STANDING** (value 5): subject was standing during the test
   * **LAYING** (value 6): subject was laying down during the test
   
-##Observed Variables
+##Observed Variables (all variables are numbers in between -1 and 1)
 * `tBodyAccMeanX`
 * `tBodyAccMeanY`
 * `tBodyAccMeanZ`
