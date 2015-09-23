@@ -50,9 +50,10 @@ colnames(tidyData) <- c("subject","activity",featuresNeeded)
 tidyData$activity <- factor(tidyData$activity, levels = activityLabels[,1], labels = activityLabels[,2])
 tidyData$subject <- as.factor(tidyData$subject)
 
+##step 6
 #applies mean for every unique Activity, Subject
 aggdata <- aggregate(x = tidyData[,3:79],by = list(Activity=tidyData$activity,Subject=tidyData$subject),FUN = mean, na.rm=T)
 
-##step 6
+##step 7
 #exports the data to a .txt file.
 write.table(aggdata, "tidy.txt", row.names = FALSE, quote = FALSE)
