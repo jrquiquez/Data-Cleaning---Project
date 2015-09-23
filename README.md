@@ -1,5 +1,5 @@
 ##Read Me
-This is a description of how Run_analysis.R works. 
+This is a description of how Run_analysis.R works. You can see inside the Run_analysis.R comments indicating each step and what it exactly does.
 
 * **Step 1:** This step downloads the data if it doesn't exists. 
 * **Step 2:** This step reads the activities and features
